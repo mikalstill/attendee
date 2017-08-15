@@ -1,0 +1,9 @@
+[2426250.307408] usb 4-5: new low-speed USB device number 3 using ohci-pci
+[2426250.477886] usb 4-5: New USB device found, idVendor=ffff, idProduct=0035
+[2426250.477898] usb 4-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[2426250.477906] usb 4-5: Product: USB Reader
+[2426250.477912] usb 4-5: Manufacturer: Sycreader
+[2426250.477918] usb 4-5: SerialNumber: 08FF20150112
+[2426250.490686] input: Sycreader USB Reader as /devices/pci0000:00/0000:00:12.0/usb4/4-5/4-5:1.0/input/input13
+[2426250.490961] hid-generic 0003:FFFF:0035.0004: input,hidraw0: USB HID v1.10 Keyboard [Sycreader USB Reader] on usb-0000:00:12.0-5/input0
+[2426250.492953] usbhid 4-5:1.1: couldn't find an input interrupt endpoint
