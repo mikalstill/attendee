@@ -1,3 +1,8 @@
+ACTION=="add",SUBSYSTEMS=="usb", ATTRS{manufacturer}=="Sycreader",ATTRS{idVendor}=="ffff",ATTRS{idProduct}=="0035",RUN="/bin/sh -c 'echo 0 >/sys/\$devpath/authorized'"
+
+
+
+
 [2426250.307408] usb 4-5: new low-speed USB device number 3 using ohci-pci
 [2426250.477886] usb 4-5: New USB device found, idVendor=ffff, idProduct=0035
 [2426250.477898] usb 4-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
