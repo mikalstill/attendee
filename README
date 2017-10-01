@@ -1,6 +1,14 @@
+First off, you need to stop the USB HID system from using the RFID devices. Do
+that by adding a file at /etc/udev/rules.d/99-rfid.rules containing the
+following:
+
 ACTION=="add",SUBSYSTEMS=="usb", ATTRS{manufacturer}=="Sycreader",ATTRS{idVendor}=="ffff",ATTRS{idProduct}=="0035",RUN="/bin/sh -c 'echo 0 >/sys/\$devpath/authorized'"
 
+And then restart udev.
 
+Now install attendee's requirements:
+
+$ sudo pip install -r requirements.txt
 
 
 [2426250.307408] usb 4-5: new low-speed USB device number 3 using ohci-pci

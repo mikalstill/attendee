@@ -1,3 +1,6 @@
 [submodule "pyusb-keyboard-alike"]
 	path = pyusb-keyboard-alike/
 	url = https://github.com/riklaunim/pyusb-keyboard-alike
+[submodule "keyboard-alike"]
+	path = keyboard-alike
+	url = https://github.com/riklaunim/pyusb-keyboard-alike
